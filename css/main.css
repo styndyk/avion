@@ -1,7 +1,35 @@
 /* General styles */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a {
+    color: #726E8D;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    font-family: "Satoshi-Regular", sans-serif;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ClashDisplay-Regular", sans-serif;
+    color: var(--dark-primary);
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 
