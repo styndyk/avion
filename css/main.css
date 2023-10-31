@@ -34,3 +34,45 @@ ul, ol {
 
 
 /* End General styles */
+
+/* Header styles */
+
+.header {
+    margin: 30px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top__left,
+.header__top__right
+{
+    flex: 0 0 auto;
+}
+
+.header__top__left img:hover {
+    cursor: pointer;
+}
+
+.header__top__center {
+    flex: 1;
+    text-align: center;
+}
+
+.header__logo {
+    color: #22202E;
+    font-family: "ClashDisplay-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header__top__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* End Header styles */
