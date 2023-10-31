@@ -39,6 +39,17 @@ ul, ol {
 
 .header {
     margin: 30px;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 3%;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.10);
 }
 
 .header__top {
