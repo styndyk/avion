@@ -246,58 +246,58 @@ p, span {
 
 /* End Features styles */
 
-/* newListings styles */
+/* Listings styles */
 
-.newListings {
+.listings {
     padding:  20px 0;
 }
 
-.newListings .container {
+.listings .container {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.newListings__title {
+.listings__title {
     font-size: 32px;
 }
 
-.newListings__products {
+.listings__products {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.newListings__products__card {
+.listings__products__card {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
 }
 
-.newListings__products__card img {
+.listings__products__card img {
     width: 305px;
     height: 375px;
     flex-shrink: 0;
 }
 
-.newListings__products__card__text {
+.listings__products__card__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
 
-.newLinstings__products__card__title {
+.listings__products__card__title {
     font-size: 20px;
     line-height: 140%;
 }
 
-.newListings__products__card__price {
+.listings__products__card__price {
     color: var(--dark-primary);
 }
 
-.newListings__button {
+.listings__button {
     padding: 16px 32px;
     background: var(--light-grey);
     color: var(--dark-primary);
@@ -306,10 +306,22 @@ p, span {
     transition: all .3s linear;
 }
 
-.newListings__button:hover {
+.listings__button:hover {
     background: var(--dark-primary);
     color: var(--light-grey);
 }
 
 
-/* End newListings styles */
+/* End Listings styles */
+
+
+
+/* popularListings styles */
+/* Most of the styles for this section are described above (class LISTING) */
+
+.popularListings__products__card img.wide {
+    width: 630px;
+    height: 375px;
+}
+
+/* End popularListings styles */
