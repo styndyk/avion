@@ -394,3 +394,64 @@ p, span {
 }
 
 /* End emailSignUp styles */
+
+/* historyOfBrand styles */
+
+.historyOfBrand .container {
+    display: flex;
+}
+
+.historyOfBrand .container > div {
+    width: 50%;
+}
+
+.historyOfBrand__leftContent {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 100px 54px 84px;
+    gap: 196px;
+}
+
+.historyOfBrand__leftContent__topContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.historyOfBrand__leftContent__topContent__title {
+    font-size: 24px;
+    line-height: 140%;
+    color: #2A254B;
+}
+
+.historyOfBrand__leftContent__topContent__text p {
+    font-size: 16px;
+    line-height: normal;
+    color: #505977;
+}
+
+.historyOfBrand__leftContent__button {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 16px 32px;
+    background-color: var(--light-grey);
+    line-height: 150%;
+    flex: 0;
+    align-self: flex-start;
+    transition: all .3s linear;
+}
+
+.historyOfBrand__leftContent__button:hover {
+    background-color: var(--dark-primary);
+    color: var(--light-grey);
+}
+
+.historyOfBrand__rightContent img {
+    width: 720px;
+    height: 603px;
+    flex-shrink: 0;
+}
+
+/* End historyOfBrand styles */
