@@ -325,3 +325,72 @@ p, span {
 }
 
 /* End popularListings styles */
+
+/* emailSignUp styles */
+
+.emailSignUp {
+    background-color: var(--light-grey);
+}
+
+.emailSignUp .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+    background-color: var(--white);
+}
+
+.emailSignUp__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.emailSignUp__text__title {
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.emailSignUp__text__subtitle {
+   font-size: 16px;
+   text-align: center;
+   color: var(--dark-primary);
+   max-width: 470px;
+}
+
+.emailSignUp__emailForm__form {
+    display: flex;
+    gap: 2px;
+}
+
+.emailSignUp__emailForm__form input[type="email"] {
+    padding: 17px 205px 17px 32px;
+    background-color: var(--light-grey);
+    border: none;
+    font-size: 16px;
+    font-family: "Satoshi-Regular", sans-serif;
+    opacity: 0.4;
+}
+
+.emailSignUp__emailForm__form input[type="email"]:focus {
+    outline-color: var(--dark-primary);
+    outline-width: 1px;
+}
+
+.emailSignUp__emailForm__sendButton {
+    padding: 16px 32px;
+    background-color: var(--dark-primary);
+    color: var(--white);
+    font-family: "Satoshi-Regular", sans-serif;
+    font-size: 16px;
+    appearance: none;
+    border: none;
+}
+
+.emailSignUp__emailForm__sendButton:hover {
+    cursor: pointer;
+}
+
+/* End emailSignUp styles */
