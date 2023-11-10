@@ -717,6 +717,175 @@ p, span {
     }
 
     /* End Features styles */
+
+    /* Listings styles */
+
+    .listings {
+        padding: 40px 0;
+    }
+
+    .listings .container {
+        gap: 35px;
+    }
+
+    .listings__title {
+        font-size: 20px;
+    }
+
+    .listings__products {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .listings__products__card img {
+        width: 160px;
+        height: 200px;
+    }
+
+    .listings__button {
+        min-width: 60%;
+    }
+
+    /* End Listings styles */
+
+    /* popularListings styles */
+    /* Most of the styles for this section are described above (class LISTING) */
+
+    .popularListings__products__card img.wide {
+        width: 320px;
+        height: 255px;
+    }
+
+    /* End popularListings styles */
+
+    /* emailSignUp styles */
+
+    .emailSignUp {
+        padding: 50px 0;
+    }
+
+    .emailSignUp .container {
+        gap: 60px;
+    }
+
+    .emailSignUp__text__title {
+        font-size: 20px;
+    }
+
+    .emailSignUp__text__subtitle {
+        font-size: 14px;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .emailSignUp__emailForm {
+        max-width: 100%;
+    }
+
+    .emailSignUp__emailForm__form input[type="email"] {
+        padding: 12px 50px 12px 24px;
+        font-size: 14px;
+    }
+
+    .emailSignUp__emailForm__sendButton {
+        padding: 12px 24px;
+        font-size: 14px;
+
+    }
+
+    /* End emailSignUp styles */
+
+    /* historyOfBrand styles */
+
+    .historyOfBrand {
+        padding: 50px 0 0 0;
+    }
+
+    .historyOfBrand .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .historyOfBrand .container > div {
+        width: 100%;
+    }
+
+    .historyOfBrand__leftContent {
+        padding: 0;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .historyOfBrand__leftContent__topContent {
+        gap: 15px;
+    }
+
+    .historyOfBrand__leftContent__topContent__title {
+        font-size: 20px;
+    }
+
+    .historyOfBrand__leftContent__topContent__text p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .historyOfBrand__leftContent__button {
+        align-self: auto;
+        align-items: center;
+        min-width: 60%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .historyOfBrand__rightContent {
+        height: 350px;
+    }
+
+    .historyOfBrand__rightContent img {
+        width: 375px;
+        height: 350px;
+        position: absolute;
+        left: 0;
+    }
+
+    /* End historyOfBrand styles */
+
+    /* footer styles */
+
+    .footer .container {
+        gap: 20px;
+    }
+
+    .footer__mainContent {
+        padding: 40px 0;
+        flex-wrap: wrap;
+        gap: 75px;
+    }
+
+    .footer__mainContent__item form {
+        max-width: 100%;
+    }
+
+    .footer__mainContent__item input {
+        padding: 12px 48px 12px 24px;
+        font-size: 14px;
+    }
+
+    .footer__mainContent__item button  {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .footer__bottomContent {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__bottomContent__socials {
+        display: none;
+    }
+
+    /* End footer styles */
 }
 
 /* End Adaptive styles */
