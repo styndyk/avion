@@ -596,3 +596,127 @@ p, span {
 }
 
 /* End footer styles */
+
+/* Adaptive styles */
+
+@media screen and (max-width: 390px) {
+
+    /*  Header styles */
+
+    .header {
+        margin: 20px 25px;
+    }
+
+    .header__top {
+        flex-direction: row-reverse;
+        margin-bottom: 0;
+    }
+
+    .header__top::after {
+        display: none;
+    }
+
+    .header__top__center {
+        flex: 0;
+    }
+
+    .header__top__right {
+        display: none;
+    }
+
+    .header__main {
+        display: none;
+    }
+
+    .container {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    /* End Header styles */
+
+    /* Hero styles */
+
+    .hero {
+        background-color: var(--dark-primary);
+    }
+
+    .hero .container {
+        flex-direction: column;
+    }
+    
+    .hero__content {
+        min-width: 100%;
+        background: none;
+        gap: 60px;
+    }
+
+    .hero__content__top {
+        margin-top: 40px;
+        margin-left: 0;
+        max-width: 100%;
+        flex: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .hero__content__top__title {
+        margin-bottom: 0;
+    }
+
+    .hero__content__top__button {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero__content__bottom {
+        max-width: 100%;
+        margin: 0 0 60px 0;
+    }
+
+    .hero__image__container img {
+        display: none;
+    }
+
+    /* End Hero styles */
+
+    /* Features styles */
+
+    .features {
+        padding: 50px 0;
+    }
+
+    .features .container {
+        gap: 35px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .features__title {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .features__content {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .features__content__item {
+        gap: 12px;
+    }
+
+    .features__content__item__title {
+        font-size: 16px;
+    }
+
+    .features__content__item__text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    /* End Features styles */
+}
+
+/* End Adaptive styles */
