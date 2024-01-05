@@ -599,12 +599,12 @@ p, span {
 
 /* Adaptive styles */
 
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 320px) {
 
     /*  Header styles */
 
     .header {
-        margin: 20px 25px;
+        margin: 20px 20px;
     }
 
     .header__top {
@@ -629,7 +629,7 @@ p, span {
     }
 
     .container {
-        max-width: 340px;
+        max-width: 300px;
         margin: 0 auto;
     }
 
@@ -648,31 +648,38 @@ p, span {
     .hero__content {
         min-width: 100%;
         background: none;
-        gap: 60px;
+        gap: 45px;
     }
 
     .hero__content__top {
-        margin-top: 40px;
+        margin-top: 30px;
         margin-left: 0;
         max-width: 100%;
         flex: 0;
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 40px;
     }
 
     .hero__content__top__title {
         margin-bottom: 0;
+        font-size: 24px;
     }
 
     .hero__content__top__button {
         max-width: 100%;
         text-align: center;
+        font-size: 14px;
+        padding: 12px 24px;
     }
 
     .hero__content__bottom {
         max-width: 100%;
-        margin: 0 0 60px 0;
+        margin: 0 0 45px 0;
+    }
+
+    .hero__content__bottom__text {
+        font-size: 14px;
     }
 
     .hero__image__container img {
@@ -684,7 +691,7 @@ p, span {
     /* Features styles */
 
     .features {
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .features .container {
@@ -695,7 +702,7 @@ p, span {
 
     .features__title {
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .features__content {
@@ -712,7 +719,7 @@ p, span {
     }
 
     .features__content__item__text {
-        font-size: 14px;
+        font-size: 13px;
         max-width: 100%;
     }
 
@@ -729,12 +736,13 @@ p, span {
     }
 
     .listings__title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .listings__products {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
+        justify-content: center;
     }
 
     .listings__products__card img {
@@ -742,8 +750,17 @@ p, span {
         height: 200px;
     }
 
+    .listings__products__card__title {
+        font-size: 18px;
+    }
+
+    .listings__products__card__price {
+        font-size: 16px;
+    }
+
     .listings__button {
         min-width: 60%;
+        font-size: 14px;
     }
 
     /* End Listings styles */
@@ -752,7 +769,7 @@ p, span {
     /* Most of the styles for this section are described above (class LISTING) */
 
     .popularListings__products__card img.wide {
-        width: 320px;
+        width: 300px;
         height: 255px;
     }
 
@@ -761,7 +778,7 @@ p, span {
     /* emailSignUp styles */
 
     .emailSignUp {
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .emailSignUp .container {
@@ -769,7 +786,7 @@ p, span {
     }
 
     .emailSignUp__text__title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .emailSignUp__text__subtitle {
@@ -784,12 +801,12 @@ p, span {
 
     .emailSignUp__emailForm__form input[type="email"] {
         padding: 12px 50px 12px 24px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .emailSignUp__emailForm__sendButton {
         padding: 12px 24px;
-        font-size: 14px;
+        font-size: 12px;
 
     }
 
@@ -798,12 +815,12 @@ p, span {
     /* historyOfBrand styles */
 
     .historyOfBrand {
-        padding: 50px 0 0 0;
+        padding: 40px 0 0 0;
     }
 
     .historyOfBrand .container {
         flex-direction: column;
-        gap: 40px;
+        gap: 35px;
     }
 
     .historyOfBrand .container > div {
@@ -812,7 +829,7 @@ p, span {
 
     .historyOfBrand__leftContent {
         padding: 0;
-        gap: 60px;
+        gap: 55px;
         align-items: center;
     }
 
@@ -821,7 +838,7 @@ p, span {
     }
 
     .historyOfBrand__leftContent__topContent__title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .historyOfBrand__leftContent__topContent__text p {
@@ -835,6 +852,7 @@ p, span {
         min-width: 60%;
         text-align: center;
         justify-content: center;
+        font-size: 14px;
     }
 
     .historyOfBrand__rightContent {
@@ -842,7 +860,7 @@ p, span {
     }
 
     .historyOfBrand__rightContent img {
-        width: 375px;
+        width: 100%;
         height: 350px;
         position: absolute;
         left: 0;
@@ -860,6 +878,15 @@ p, span {
         padding: 40px 0;
         flex-wrap: wrap;
         gap: 75px;
+        justify-content: center;
+    }
+
+    .footer__mainContent__item__title {
+        font-size: 14px;
+    }
+
+    .footer__mainContent__list__item__link {
+        font-size: 12px;
     }
 
     .footer__mainContent__item form {
@@ -868,11 +895,11 @@ p, span {
 
     .footer__mainContent__item input {
         padding: 12px 48px 12px 24px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .footer__mainContent__item button  {
-        font-size: 14px;
+        font-size: 12px;
         padding: 12px 24px;
     }
 
@@ -886,6 +913,10 @@ p, span {
     }
 
     /* End footer styles */
+}
+
+@media screen and (min-width: 381px) and (max-width: 414px) {
+    
 }
 
 /* End Adaptive styles */
