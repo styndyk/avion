@@ -732,7 +732,7 @@ p, span {
     }
 
     .listings .container {
-        gap: 35px;
+        gap: 25px;
     }
 
     .listings__title {
@@ -799,14 +799,18 @@ p, span {
         max-width: 100%;
     }
 
+    .emailSignUp__emailForm__form {
+        gap: 0;
+    }
+
     .emailSignUp__emailForm__form input[type="email"] {
-        padding: 12px 50px 12px 24px;
-        font-size: 12px;
+        padding: 14px 24px 14px 24px;
+        font-size: 14px;
     }
 
     .emailSignUp__emailForm__sendButton {
-        padding: 12px 24px;
-        font-size: 12px;
+        padding: 14px 24px;
+        font-size: 14px;
 
     }
 
@@ -894,7 +898,7 @@ p, span {
     }
 
     .footer__mainContent__item input {
-        padding: 12px 48px 12px 24px;
+        padding: 12px 12px 12px 24px;
         font-size: 12px;
     }
 
@@ -915,8 +919,164 @@ p, span {
     /* End footer styles */
 }
 
-@media screen and (min-width: 381px) and (max-width: 414px) {
-    
+@media screen and (min-width: 390px) and (orientation: portrait){
+
+    .container {
+        max-width: 340px;
+    }
+
+    /* Herro Styles */
+
+    .hero__content {
+        gap: 65px;
+    }
+
+    .hero__content__top {
+        margin-top: 40px;
+        gap: 55px;
+    }
+
+    .hero__content__top__title {
+        font-size: 32px;
+    }
+
+    .hero__content__top__button {
+        padding: 16px 32px;
+        font-size: 16px;
+    }
+
+    .hero__content__bottom {
+        margin: 0 0 40px 0;
+    }
+
+    .hero__content__bottom__text {
+        font-size: 18px;
+    }
+
+    /* End Herro Styles */
+
+    /* Feature Styles */
+
+    .features {
+        padding: 50px 0;
+    }
+
+    .features__title {
+        font-size: 20px;
+    }
+
+    .features__content__item__text {
+        font-size: 14px;
+    }
+
+    /* End Feature Styles */
+
+    /* Listings Styles */
+
+    .listings {
+        padding: 50px 0;
+    }
+
+    .listings .container {
+        gap: 30px;
+    }
+
+    .listings__title {
+        font-size: 20px;
+    }
+
+    .listings__products {
+        gap: 15px;
+    }
+
+    .listings__products__card img {
+        width: 160px;
+        height: 200px;
+    }
+
+    .listings__products__card__title {
+        font-size: 20px;
+    }
+
+    .listings__products__card__price {
+        font-size: 18px;
+    }
+
+    .listings__button {
+        font-size: 16px;
+        min-width: 65%;
+    }
+
+    /* End Listings Styles */
+
+    /* emailSignUp Styles */
+
+    .emailSignUp {
+        padding: 50px 0;
+    }
+
+    .emailSignUp .container {
+        gap: 65px;
+    }
+
+    .emailSignUp__text__title {
+        font-size: 20px;
+    }
+
+    .emailSignUp__emailForm__form input[type="email"] {
+        font-size: 16px;
+        padding: 16px 24px;
+    }
+
+    .emailSignUp__emailForm__sendButton {
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+
+    /* End emailSignUp Styles */
+
+    /* historyOfBrand Styles  */
+
+    .historyOfBrand {
+        padding: 50px 0 0 0;
+    }
+
+    .historyOfBrand .container {
+        gap: 40px;
+    }
+
+    .historyOfBrand__leftContent__topContent__title {
+        font-size: 20px;
+    }
+
+    .historyOfBrand__leftContent__button {
+        min-width: 65%;
+        font-size: 16px;
+    }
+
+    /* End historyOfBrand Styles  */
+
+    /* Footer Styles */
+
+    .footer__mainContent__item__title {
+        font-size: 16px;
+    }
+
+    .footer__mainContent__list__item__link {
+        font-size: 14px;
+    }
+
+    .footer__mainContent__item input {
+        padding: 15px 0 14px 24px;
+        font-size: 16px;
+    }
+
+    .footer__mainContent__item button {
+        padding: 15px 28px;
+        font-size: 16px;
+    }
+
+    /* End Footer Styles */
 }
 
 /* End Adaptive styles */
