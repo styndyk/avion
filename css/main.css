@@ -1294,6 +1294,7 @@ p, span {
         flex-wrap: wrap;
         justify-content: center;
         gap: 100px;
+        row-gap: 40px;
     }
 
     .footer__mainContent__item input {
@@ -1333,6 +1334,7 @@ p, span {
 
     .footer__mainContent {
         gap: 135px;
+        row-gap: 40px;
     }
 
     .footer__mainContent__item input {
@@ -1362,6 +1364,7 @@ p, span {
 
     .listings__products {
         gap: 80px;
+        row-gap: 45px;
     }
 
     .listings__button {
@@ -1381,5 +1384,55 @@ p, span {
     }
 }
 
+
+/* Adaptive for min-width: 844px (Iphone 12 Pro). Orientation: landscape */
+
+@media  screen and (min-width: 844px) and (max-height: 450px) and (orientation: landscape) {
+    
+    .container {
+        max-width: 785px;
+    }
+
+    .hero__content__top {
+        margin-top: 40px;
+    }
+
+    .listings__products {
+        gap: 95px;
+        row-gap: 50px;
+    }
+}
+
+/* Adaptive for min-width: 896px (Iphone XR). Orientation: landscape */
+
+@media  screen and (min-width: 896px) and (max-height: 450px) and (orientation: landscape) {
+
+    .container {
+        max-width: 850px;
+    }
+
+    .header__navigation__list {
+        gap: 70px;
+    }
+
+    .hero__content__top {
+        margin-top: 55px;
+    }
+
+    .hero__content__bottom__text {
+        line-height: 200%;
+    }
+
+    .listings__products {
+        gap: 120px;
+        row-gap: 60px;
+    }
+
+    .footer__mainContent {
+        gap: 160px;
+        row-gap: 50px;
+    }
+}
+  
 
 /* End Adaptive styles */
