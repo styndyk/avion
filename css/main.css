@@ -781,6 +781,7 @@ p, span {
 
     .emailSignUp {
         padding: 40px 0;
+        background-color: var(--white);
     }
 
     .emailSignUp .container {
@@ -821,7 +822,7 @@ p, span {
     /* historyOfBrand styles */
 
     .historyOfBrand {
-        padding: 40px 0 0 0;
+        padding: 50px 0;
     }
 
     .historyOfBrand .container {
@@ -862,7 +863,7 @@ p, span {
     }
 
     .historyOfBrand__rightContent {
-        height: 350px;
+        display: none;
     }
 
     .historyOfBrand__rightContent img {
@@ -1042,7 +1043,7 @@ p, span {
     /* historyOfBrand Styles  */
 
     .historyOfBrand {
-        padding: 50px 0 0 0;
+        padding: 50px 0;
     }
 
     .historyOfBrand .container {
@@ -1233,6 +1234,10 @@ p, span {
     /* End PopularListings Styles */
 
     /* EmailSignUp Styles */
+
+    .emailSignUp {
+        background-color: var(--white);
+    }
 
     .emailSignUp .container {
         margin: 20px auto;
