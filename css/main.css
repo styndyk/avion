@@ -599,14 +599,25 @@ p, span {
 
 /* Adaptive styles */
 
-/* Adaptive for Small screens. Orientation: portrait */
+/* Adaptive for Orientation: portrait */
+
+/* Adaptive for min-width: 320px. Orientation: portrait */
 
 @media screen and (min-width: 320px) and (orientation: portrait) {
+
+    /* General Styles */
+
+    .container {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    /* End General Styles */
 
     /*  Header styles */
 
     .header {
-        margin: 20px 20px;
+        margin: 20px 15px;
     }
 
     .header__top {
@@ -630,11 +641,6 @@ p, span {
         display: none;
     }
 
-    .container {
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
     /* End Header styles */
 
     /* Hero styles */
@@ -651,10 +657,11 @@ p, span {
         min-width: 100%;
         background: none;
         gap: 45px;
+        padding: 40px 0;
     }
 
     .hero__content__top {
-        margin-top: 30px;
+        margin-top: 0;
         margin-left: 0;
         max-width: 100%;
         flex: 0;
@@ -677,7 +684,7 @@ p, span {
 
     .hero__content__bottom {
         max-width: 100%;
-        margin: 0 0 45px 0;
+        margin: 0;
     }
 
     .hero__content__bottom__text {
@@ -922,14 +929,39 @@ p, span {
     /* End footer styles */
 }
 
-/* Adaptive for min-width: 390px (iphone 6,7,8 plus). Orientation: portrait */
+/* Adaptive for min-width: 375px (iPhone 6,7,8). Orientation: portrait */
 
-@media screen and (min-width: 390px) and (orientation: portrait){
+@media screen and (min-width: 375px) and (orientation: portrait) {
+    
+    /* General Styles */
 
     .container {
-        max-width: 340px;
+        max-width: 335px;
     }
 
+    /* End General Styles */
+
+    /* Header Styles */
+
+    .header {
+        margin: 20px 20px;
+    }
+
+    /* End Header Styles */
+}
+
+/* Adaptive for min-width: 390px (iphone 6,7,8 plus). Orientation: portrait */
+
+@media screen and (min-width: 390px) and (orientation: portrait) {
+
+    /* General Styles */
+
+    .container {
+        max-width: 350px;
+    }
+
+    /* End General Styles */
+    
     /* Herro Styles */
 
     .hero__content {
@@ -937,7 +969,6 @@ p, span {
     }
 
     .hero__content__top {
-        margin-top: 40px;
         gap: 55px;
     }
 
@@ -948,10 +979,6 @@ p, span {
     .hero__content__top__button {
         padding: 16px 32px;
         font-size: 16px;
-    }
-
-    .hero__content__bottom {
-        margin: 0 0 40px 0;
     }
 
     .hero__content__bottom__text {
@@ -1083,6 +1110,80 @@ p, span {
 
     /* End Footer Styles */
 }
+
+/* Adaptive for min-width: 768px (iPad Mini). Orientation: portrait */
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+
+    /* General Style */
+    
+    .container {
+        max-width: 700px;
+    }
+    
+    /* End General Style */
+
+    /* Header Styles */
+    
+    .header {
+        margin: 25px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .header__top {
+        flex-direction: row;
+    }
+
+    .header__top__left img {
+        width: 20px;
+    }
+
+    .header__top__right {
+        display: flex;
+        gap: 20px;
+    }
+
+    .header__top__right img {
+        width: 20px;
+    }
+
+    .header__main {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .header__navigation__list {
+        gap: 50px;
+    }
+
+    .header__navigation__list__item__link {
+        font-size: 14px;
+    }
+
+    /* End Header Styles */
+
+    /* Hero Styles */
+
+    .hero__content {
+        gap: 60px;
+        padding: 55px 0;
+    }
+
+    .hero__content__top__title {
+        font-size: 40px;
+    }
+
+    .hero__content__top__button {
+        align-self: center;
+        min-width: 60%;
+    }
+
+    /* End Hero Styles */
+}
+
+/* Adaptive for Orientation: landscape */
 
 /* Adaptive for min-width: 667px (iphone SE, iphone 6/7/8). Orientation: landscape */
 
@@ -1438,6 +1539,5 @@ p, span {
         row-gap: 50px;
     }
 }
-  
 
 /* End Adaptive styles */
