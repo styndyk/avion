@@ -1181,6 +1181,137 @@ p, span {
     }
 
     /* End Hero Styles */
+
+    /* Features Styles */
+
+    .features .container {
+        align-items: center;
+        gap: 45px;
+    }
+
+    .features__title {
+        font-size: 26px;
+    }
+
+    .features__content {
+        flex-direction: row;
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .features__content__item {
+        max-width: 35%;
+    }
+
+    .features__content__item__title {
+        font-size: 18px;
+    }
+
+    /* End Features Styles */
+
+    /* Listings Styles */
+
+    .listings .container {
+        align-items: center;
+        gap: 50px;
+    }
+
+    .listings__title {
+        font-size: 24px;
+    }
+
+    .listings__products {
+        gap: 60px;
+        justify-content: flex-start;
+    }
+
+    .listings__products__card {
+        min-width: 25%;
+    }
+
+    .listings__products__card img {
+        width: 185px;
+        height: 220px;
+    }
+
+    /* End Listings Styles */
+
+    /* PopularListings Styles */
+
+    .popularListings__products__card img.wide {
+        width: 355px;
+        height: 220px;
+    }
+
+    /* End PopularListings Styles */
+
+    /* EmailSignUp Styles*/
+
+    .emailSignUp__text__title {
+        font-size: 24px;
+    }
+
+    .emailSignUp__text__subtitle {
+        font-size: 16px;
+    }
+
+    .emailSignUp__emailForm {
+        min-width: 75%;
+    }
+
+    .emailSignUp__emailForm__form input[type="email"] {
+        min-width: 65%;
+    }
+
+    .emailSignUp__emailForm__sendButton {
+        min-width: 25%;
+    }
+
+    /* End EmailSignUp Styles*/
+
+    /* HistoryOfBrand Styles */
+
+    .historyOfBrand__leftContent {
+        gap: 60px;
+    }
+
+    .historyOfBrand__leftContent__topContent {
+        gap: 30px;
+    }
+
+    .historyOfBrand__leftContent__topContent__title {
+        font-size: 24px;
+    }
+
+    .historyOfBrand__leftContent__topContent__text p {
+        font-size: 16px;
+    }
+
+    /* End HistoryOfBrand Styles */
+
+    /* Footer Styles */
+
+    .footer__mainContent {
+        justify-content: space-around;
+        gap: 65px;
+    }
+
+    .footer__mainContent__item:last-child {
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer__mainContent__item__title {
+        font-size: 18px;
+    }
+
+    .footer__mainContent__item input {
+        padding: 15px 30px;
+    }
+
+    /* End Footer Styles */
 }
 
 /* Adaptive for Orientation: landscape */
