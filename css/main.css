@@ -153,21 +153,23 @@ p, span {
     background-color: var(--dark-primary);
     display: flex;
     flex-direction: column;
-    min-width: 60%;
+    max-width: 55%;
+    gap: 100px;
+    padding: 60px 0 60px 60px;
 }
 
 .hero__content__top {
-    margin-top: 60px;
-    margin-left: 60px;
-    max-width: 515px;
+    max-width: 85%;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .hero__content__top__title {
     color: var(--white);
     font-size: 32px;
     line-height: 140%;
-    margin-bottom: 40px;
 }
 
 .hero__content__top__button {
@@ -175,6 +177,7 @@ p, span {
     background: rgba(249, 249, 249, 0.15);
     line-height: 150%;
     transition: all .3s linear;
+    max-width: max-content;
 }
 
 .hero__content__top__button:hover {
@@ -183,9 +186,7 @@ p, span {
 
 .hero__content__bottom {
     flex: 0 0 auto;
-    max-width: 600px;
-    margin-left: 60px;
-    margin-bottom: 60px;
+    max-width: 85%;
 }
 
 .hero__image__container img {
@@ -1669,6 +1670,167 @@ p, span {
         gap: 160px;
         row-gap: 50px;
     }
+}
+
+/* Adaptive for min-width: 1024px (iPad Mini). Orientation: landscape */
+
+@media screen and (min-width: 1024px) and (max-width: 1250px) and (orientation: landscape) {
+    
+    /* General Styles */
+
+    .container {
+        max-width: 944px;
+        margin: 35px auto;
+    }
+
+    /* End General Styles */
+
+    /* Header Styles */
+    
+    .header {
+        margin: 30px 30px 35px;
+    }
+
+    .header__top__right {
+        gap: 20px;
+    }
+
+    .header__main {
+        margin-bottom: 0;
+    }
+
+    .header__navigation__list {
+        gap: 60px;
+    }
+
+    /* Header Styles */
+
+    /* Hero Styles */
+
+    .hero__content {
+        padding: 40px 0 40px 40px;
+    }
+
+    .hero__content__top__title {
+        font-size: 30px;
+    }
+
+    .hero__content__bottom__text {
+        font-size: 16px;
+    }
+
+    /* End Hero Styles */
+
+    /* Features Styles */
+
+    .features {
+        padding-top: 5px;
+    }
+
+    .features__content {
+        gap: 45px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .features__content__item {
+        min-width: 33%;
+        max-width: 40%;
+    }
+
+    /* End Features Styles */
+
+    /* Listings Styles */
+
+    .listings .container {
+        gap: 45px;
+    }
+
+    .listings__products {
+        flex-wrap: wrap;
+        gap: 45px;
+        justify-content: flex-start;
+    }
+
+    .listings__products__card img {
+        width: 255px;
+        height: 280px;
+    }
+
+    .listings__button {
+        min-width: 40%;
+    }
+
+    /* End Listings Styles */
+
+    /* PopularLintings Styles */
+
+    .popularListings__products__card img.wide {
+        width: 475px;
+        height: 280px;
+    }
+
+    /* End PopularLintings Styles */
+
+    /* EmailSignUp Styles */
+
+    .emailSignUp {
+        background-color: var(--white);
+        margin-bottom: 100px;
+    }
+
+    .emailSignUp__emailForm {
+        min-width: 75%;
+        max-width: 100%;
+    }
+
+    .emailSignUp__emailForm__form {
+        justify-content: center;
+    }
+
+    .emailSignUp__emailForm__form input[type="email"] {
+        padding: 17px 150px 17px 32px;
+        min-width: 50%;
+    }
+
+    .emailSignUp__emailForm__sendButton {
+        min-width: 20%;
+    }
+
+    /* End EmailSignUp Styles */
+
+    /* HistoryOfBrand Styles */
+
+    .historyOfBrand__leftContent {
+        padding: 40px 70px 0 15px;
+        gap: 80px;
+    }
+
+    .historyOfBrand__leftContent__button {
+        min-width: 35%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .historyOfBrand__rightContent img {
+        max-width: 100%;
+        width: 450px;
+        height: 460px;
+    }
+
+    /* End HistoryOfBrand Styles */
+
+    /* Footer Styles */
+
+    .footer__mainContent {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 180px;
+        row-gap: 75px;
+    }
+
+    /* End Footer Styles */
+
 }
 
 /* End Adaptive styles */
