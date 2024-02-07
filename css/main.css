@@ -1315,6 +1315,40 @@ p, span {
     /* End Footer Styles */
 }
 
+/* Adaptive for min-width: 820px (iPad Air). Orientation: portrait */
+
+@media screen and (min-width: 820px) and (orientation: portrait) {
+    
+    /* General Styles */
+
+    .container {
+        max-width: 750px;
+    }
+
+    /* End General Styles */
+
+    /* Hero Styles */
+
+    .hero__content__top__title {
+        text-align: center;
+    }
+
+    /* End Hero Styles */
+
+    /* Features Styles */
+
+    .features .container {
+        gap: 50px;
+    }
+
+    .features__content {
+        justify-content: space-around;
+    }
+
+    /* End Features Styles */
+
+}
+
 /* Adaptive for Orientation: landscape */
 
 /* Adaptive for min-width: 667px (iphone SE, iphone 6/7/8). Orientation: landscape */
@@ -1674,7 +1708,7 @@ p, span {
 
 /* Adaptive for min-width: 1024px (iPad Mini). Orientation: landscape */
 
-@media screen and (min-width: 1024px) and (max-width: 1250px) and (orientation: landscape) {
+@media screen and (min-width: 1024px) and (max-width: 1179px) and (orientation: landscape) {
     
     /* General Styles */
 
